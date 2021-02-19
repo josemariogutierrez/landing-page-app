@@ -1,0 +1,26 @@
+@import "styles/mixins.scss";
+
+.header {
+  height: 80px;
+  padding: 20px 30px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.logoContainer {
+  width: 40px;
+  overflow: hidden;
+
+  @include tablet {
+    width: 400px;
+  }
+}
+
+.logo {
+  width: 185px;
+  height: 40px;
+}
+
+.shopIcon {
+  width: 30px;
+}

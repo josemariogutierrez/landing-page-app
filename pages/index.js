@@ -1,17 +1,20 @@
+import { Header } from '../sections';
 import Head from 'next/head'
 
-export default function Home() {
+const Home = ()=> {
   return (
-    <div>
+    <>
       <Head>
-        <title>Create Next App</title>
+        <title>Engineering Exercise - Landing Page App</title>
+        <meta name="description" content="Engineering Exercise - Landing Page App" />
+        <link rel="stylesheet" href="https://use.typekit.net/esm7pll.css"></link>
       </Head>
 
       <main>
-        <h1>
-          Welcome to <a href="https://nextjs.org">Next.js!</a>
-        </h1>
+        <Header></Header>
       </main>
-    </div>
+    </>
   )
 }
+
+export default Home;
