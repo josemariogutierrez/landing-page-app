@@ -1,4 +1,4 @@
-import { Header } from '../sections';
+import { Header, Hero } from '../sections';
 import Head from 'next/head'
 
 const Home = ()=> {
@@ -12,6 +12,7 @@ const Home = ()=> {
 
       <main>
         <Header></Header>
+        <Hero></Hero>
       </main>
     </>
   )
