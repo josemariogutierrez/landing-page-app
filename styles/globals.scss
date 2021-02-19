@@ -1,0 +1,62 @@
+@import "styles/variables.scss";
+
+*, *::after, *::before {
+  box-sizing: border-box;
+}
+
+html,
+body {
+  color: $white-color;
+  font-family: futura-pt, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+main {
+  overflow: hidden;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+p {
+  color: $white-color;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 24px;
+}
+
+h1 {
+  font-family: futura-pt-bold, sans-serif;
+  font-size: 40px;
+}
+
+img {
+  width: 100%;
+}
+
+ul, li {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  height: 100%;
+  margin: auto;
+  max-width: 1280px;
+  position: relative;
+}
+
+.btn {
+  background-color: $black-color;
+  border-radius: 4px;
+  border: none;
+  color: $white-color;
+  display: inline-block;
+  font-family: futura-pt, sans-serif;
+  padding: 10px 16px;
+  text-transform: uppercase;
+}
