@@ -1,4 +1,4 @@
-import { Header, Hero, MailForm } from '../sections';
+import { Header, Hero, MailForm, Footer } from '../sections';
 import Head from 'next/head'
 
 const Home = ()=> {
@@ -14,6 +14,7 @@ const Home = ()=> {
         <Header></Header>
         <Hero></Hero>
         <MailForm></MailForm>
+        <Footer></Footer>
       </main>
     </>
   )

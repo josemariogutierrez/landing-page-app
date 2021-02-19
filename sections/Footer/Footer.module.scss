@@ -1,0 +1,47 @@
+@import "styles/variables.scss";
+@import "styles/mixins.scss";
+
+.footer {
+  background-color: $black-color;
+  min-height: 430px;
+
+  &Row {
+    display: flex;
+    flex-direction: column;
+    padding: 70px 70px 130px;
+
+    @include tablet {
+      flex-direction: row;
+      flex-wrap: wrap;
+    }
+  }
+
+  &Column {
+    flex: 1;
+    padding: 10px;
+  }
+
+  &LastColumn {
+    padding-top: 25px;
+
+    .links {
+      font-family: futura-pt, sans-serif;
+    }
+  }
+}
+
+.columnTitle {
+  font-size: 13px;
+  line-height: 16px;
+  margin: 0 0 15px;
+  text-transform: uppercase;
+}
+
+.links {
+  font-size: 16px;
+  font-family: futura-pt-bold, sans-serif;
+}
+
+.listItem {
+  margin: 30px 0;
+}
